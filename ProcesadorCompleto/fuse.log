@@ -1,0 +1,58 @@
+Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -o C:/Users/utp/Desktop/Proces/ProcesadorCompleto/Procesador_tb_isim_beh.exe -prj C:/Users/utp/Desktop/Proces/ProcesadorCompleto/Procesador_tb_beh.prj work.Procesador_tb 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Parsing VHDL file "C:/Users/utp/Desktop/Proces/ProcesadorCompleto/../Arquitectura-master/sexta entrega procesador/WindowsManager.vhd" into library work
+Parsing VHDL file "C:/Users/utp/Desktop/Proces/ProcesadorCompleto/../Arquitectura-master/sexta entrega procesador/UC.vhd" into library work
+Parsing VHDL file "C:/Users/utp/Desktop/Proces/ProcesadorCompleto/../Arquitectura-master/sexta entrega procesador/sum.vhd" into library work
+Parsing VHDL file "C:/Users/utp/Desktop/Proces/ProcesadorCompleto/../Arquitectura-master/sexta entrega procesador/SingEU30.vhd" into library work
+Parsing VHDL file "C:/Users/utp/Desktop/Proces/ProcesadorCompleto/../Arquitectura-master/sexta entrega procesador/singEU22.vhd" into library work
+Parsing VHDL file "C:/Users/utp/Desktop/Proces/ProcesadorCompleto/../Arquitectura-master/sexta entrega procesador/SingEU.vhd" into library work
+Parsing VHDL file "C:/Users/utp/Desktop/Proces/ProcesadorCompleto/../Arquitectura-master/sexta entrega procesador/RF.vhd" into library work
+Parsing VHDL file "C:/Users/utp/Desktop/Proces/ProcesadorCompleto/../Arquitectura-master/sexta entrega procesador/Psr_Modifier.vhd" into library work
+Parsing VHDL file "C:/Users/utp/Desktop/Proces/ProcesadorCompleto/../Arquitectura-master/sexta entrega procesador/Psr.vhd" into library work
+Parsing VHDL file "C:/Users/utp/Desktop/Proces/ProcesadorCompleto/../Arquitectura-master/sexta entrega procesador/PC.vhd" into library work
+Parsing VHDL file "C:/Users/utp/Desktop/Proces/ProcesadorCompleto/../Arquitectura-master/sexta entrega procesador/MuxPcSource.vhd" into library work
+Parsing VHDL file "C:/Users/utp/Desktop/Proces/ProcesadorCompleto/../Arquitectura-master/sexta entrega procesador/muxForCall.vhd" into library work
+Parsing VHDL file "C:/Users/utp/Desktop/Proces/ProcesadorCompleto/../Arquitectura-master/sexta entrega procesador/mux2.vhd" into library work
+Parsing VHDL file "C:/Users/utp/Desktop/Proces/ProcesadorCompleto/../Arquitectura-master/sexta entrega procesador/mux.vhd" into library work
+Parsing VHDL file "C:/Users/utp/Desktop/Proces/ProcesadorCompleto/../Arquitectura-master/sexta entrega procesador/IM.vhd" into library work
+Parsing VHDL file "C:/Users/utp/Desktop/Proces/ProcesadorCompleto/../Arquitectura-master/sexta entrega procesador/DataMemory.vhd" into library work
+Parsing VHDL file "C:/Users/utp/Desktop/Proces/ProcesadorCompleto/../Arquitectura-master/sexta entrega procesador/ALU.vhd" into library work
+Parsing VHDL file "C:/Users/utp/Desktop/Proces/ProcesadorCompleto/../Arquitectura-master/sexta entrega procesador/Adder.vhd" into library work
+Parsing VHDL file "C:/Users/utp/Desktop/Proces/ProcesadorCompleto/../Arquitectura-master/sexta entrega procesador/Procesador.vhd" into library work
+Parsing VHDL file "C:/Users/utp/Desktop/Proces/ProcesadorCompleto/../Arquitectura-master/sexta entrega procesador/Procesador_tb.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package std_logic_arith
+Compiling package std_logic_unsigned
+Compiling package textio
+Compiling architecture pc_architecture of entity PC [pc_default]
+Compiling architecture behavioral of entity sum [sum_default]
+Compiling architecture arqinstructionmemory of entity instructionMemory [instructionmemory_default]
+Compiling architecture behavioral of entity WindowsManager [windowsmanager_default]
+Compiling architecture behavioral of entity muxForCall [muxforcall_default]
+Compiling architecture behavioral of entity UC [uc_default]
+Compiling architecture behavioral of entity RF [rf_default]
+Compiling architecture behavioral of entity SingEU [singeu_default]
+Compiling architecture behavioral of entity mux [mux_default]
+Compiling architecture behavioral of entity Psr [psr_default]
+Compiling architecture behavioral of entity ALU [alu_default]
+Compiling architecture arqpsrmodifier of entity PSRModifier [psrmodifier_default]
+Compiling architecture behavioral of entity DataMemory [datamemory_default]
+Compiling architecture behavioral of entity mux2 [mux2_default]
+Compiling architecture behavioral of entity Adder [adder_default]
+Compiling architecture behavioral of entity MuxPcSource [muxpcsource_default]
+Compiling architecture behavioral of entity SingEU22 [singeu22_default]
+Compiling architecture behavioral of entity SingEU30 [singeu30_default]
+Compiling architecture behavioral of entity Procesador [procesador_default]
+Compiling architecture behavior of entity procesador_tb
+Time Resolution for simulation is 1ps.
+Waiting for 17 sub-compilation(s) to finish...
+Compiled 44 VHDL Units
+Built simulation executable C:/Users/utp/Desktop/Proces/ProcesadorCompleto/Procesador_tb_isim_beh.exe
+Fuse Memory Usage: 34552 KB
+Fuse CPU Usage: 639 ms
