@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "C:/Users/utp/Desktop/final2/sparcv8_v6_monociclo_tb_isim_beh.exe" -prj "C:/Users/utp/Desktop/final2/sparcv8_v6_monociclo_tb_beh.prj" "work.sparcv8_v6_monociclo_tb" 
